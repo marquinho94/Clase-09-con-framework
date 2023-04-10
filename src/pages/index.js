@@ -19,9 +19,12 @@ export default function Home() {
         Holuuuu
 
         <Imagen URL=".img\terminator-2-el-juicio-final.jpeg"></Imagen>
-       
 
-        
+        <Imagen URL="https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2021/07/01/terminator-2-el-juicio-final.jpeg"></Imagen>
+        <img src='https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2021/07/01/terminator-2-el-juicio-final.jpeg'></img>
+
+
+
       </main>
     </>
   )
