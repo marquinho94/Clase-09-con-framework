@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Imagen from './components/_img'
+import Fondo from './components/_img'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,14 +16,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 
-        Holuuuu
+        <h1>Holuuuu</h1> 
+        <br></br>
 
-        <Imagen URL=".img\terminator-2-el-juicio-final.jpeg"></Imagen>
-
-        <Imagen URL="https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2021/07/01/terminator-2-el-juicio-final.jpeg"></Imagen>
-        <img src='https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2021/07/01/terminator-2-el-juicio-final.jpeg'></img>
-
-
+        <Fondo enlace='https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2021/07/01/terminator-2-el-juicio-final.jpeg'></Fondo>
 
       </main>
     </>

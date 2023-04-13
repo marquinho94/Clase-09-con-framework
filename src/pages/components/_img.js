@@ -1,5 +1,5 @@
-export default function Imagen(URL){
+export default function Fondo(props){
     return(
-        <img src={URL}></img>
+        <img className="imagen-fondo" src={props.enlace}></img>
     )
 }
